@@ -5,6 +5,7 @@ lum_create_ui <- function() {
     shiny::shinyUI(
       shiny::sidebarLayout(
         sidebarPanel = shiny::navbarPage(
+          id = "main_panel",
           title = "beautier",
           shiny::tabPanel(
             title = "Partitions",
@@ -39,9 +40,13 @@ lum_create_ui <- function() {
           shiny::h1("beautier command"),
           "Use this in your R scripts:",
           shiny::verbatimTextOutput("result"),
+          shiny::hr(),
           shiny::h1("Produced XML"),
           "Just for your interest :-)",
           shiny::verbatimTextOutput("xml"),
+          shiny::hr(),
+          "For debugging:",
+          shiny::verbatimTextOutput("log"),
           width = 12
         )
       )

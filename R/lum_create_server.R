@@ -16,4 +16,8 @@ lum_create_server <- function(input, output) {
     lum_create_xml(lum_create_beautier_cmd_from_ui(input, as_file = FALSE))
   })
 
+  output$log <- shiny::renderText({
+    input$main_panel
+  })
+
 }
