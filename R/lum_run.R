@@ -6,5 +6,9 @@
 #' @author Richel J.C. Bilderbeek
 #' @export
 lum_run <- function() {
+
+  lum_create_ui <- NULL; rm(lum_create_ui) # nolint, fixes warning: no visible binding for global variable
+  lum_create_server <- NULL; rm(lum_create_server) # nolint, fixes warning: no visible binding for global variable
+
   shiny::shinyApp(ui = lum_create_ui, server = lum_create_server)
 }

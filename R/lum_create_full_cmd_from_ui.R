@@ -3,7 +3,7 @@
 #' @param as_file if TRUE, show \code{create_beast_input_file},
 #'   else show \code{create_beast_input}
 #' @author Richel J.C. Bilderbeek
-lum_create_beautier_cmd_from_ui <- function(
+lum_create_full_cmd_from_ui <- function(
   ui,
   as_file
 ) {
