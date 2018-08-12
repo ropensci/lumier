@@ -6,6 +6,9 @@
 \usage{
 lum_create_site_model_arg(subst_model)
 }
+\arguments{
+\item{subst_model}{name of the substitution model}
+}
 \description{
 Create the \code{site_model} argument
 }

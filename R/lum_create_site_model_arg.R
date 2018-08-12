@@ -1,4 +1,5 @@
 #' Create the \code{site_model} argument
+#' @param subst_model name of the substitution model
 #' @author Richel J.C. Bilderbeek
 lum_create_site_model_arg <- function(subst_model) {
   arg <- "site_models ="

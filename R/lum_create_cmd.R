@@ -1,5 +1,10 @@
 #' Create the \code{beautier} command from the user interface
-#' @param ui the user interface, as created by \link{lum_create_ui}
+#' @param filename the name of the FASTA filename
+#' @param subst_model name of the substitution model
+#' @param clock_model name of the clock model
+#' @param tree_prior name of the tree prior
+#' @param chain_length MCMC chain length
+#' @param store_every MCMC store interval
 #' @author Richel J.C. Bilderbeek
 lum_create_cmd <- function(
   filename = "test.fas",

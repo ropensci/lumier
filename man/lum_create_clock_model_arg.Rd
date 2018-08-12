@@ -6,6 +6,9 @@
 \usage{
 lum_create_clock_model_arg(clock_model)
 }
+\arguments{
+\item{clock_model}{the clock model, as text}
+}
 \description{
 Create the \code{clock_model} argument
 }

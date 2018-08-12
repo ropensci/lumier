@@ -6,6 +6,9 @@
 \usage{
 lum_create_tree_prior_arg(tree_prior)
 }
+\arguments{
+\item{tree_prior}{name of the tree prior}
+}
 \description{
 Create the \code{tree_prior} argument
 }

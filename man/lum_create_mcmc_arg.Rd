@@ -6,6 +6,11 @@
 \usage{
 lum_create_mcmc_arg(chain_length = "10000000", store_every = -1)
 }
+\arguments{
+\item{chain_length}{MCMC chain length}
+
+\item{store_every}{MCMC store interval}
+}
 \description{
 Create the \code{mcmc} argument
 }

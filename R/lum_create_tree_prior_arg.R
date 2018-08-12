@@ -1,4 +1,5 @@
 #' Create the \code{tree_prior} argument
+#' @param tree_prior name of the tree prior
 #' @author Richel J.C. Bilderbeek
 lum_create_tree_prior_arg <- function(tree_prior) {
   arg <- "tree_priors ="

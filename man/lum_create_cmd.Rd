@@ -9,7 +9,17 @@ lum_create_cmd(filename = "test.fas", subst_model = "JC69",
   chain_length = 1e+07, store_every = -1)
 }
 \arguments{
-\item{ui}{the user interface, as created by \link{lum_create_ui}}
+\item{filename}{the name of the FASTA filename}
+
+\item{subst_model}{name of the substitution model}
+
+\item{clock_model}{name of the clock model}
+
+\item{tree_prior}{name of the tree prior}
+
+\item{chain_length}{MCMC chain length}
+
+\item{store_every}{MCMC store interval}
 }
 \description{
 Create the \code{beautier} command from the user interface
