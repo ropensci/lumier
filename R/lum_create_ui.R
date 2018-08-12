@@ -1,6 +1,6 @@
 #' Define user interface
 lum_create_ui <- function() {
-  ui <- shiny::fluidPage(
+  shiny::fluidPage(
     shiny::shinyUI(
       shiny::sidebarLayout(
         sidebarPanel = shiny::navbarPage(
@@ -45,5 +45,4 @@ lum_create_ui <- function() {
       )
     )
   )
-  ui
 }
