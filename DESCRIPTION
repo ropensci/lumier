@@ -9,6 +9,7 @@ Description: lumier is an R package that shows
   how to use beautier by a Shiny app.
 Imports:
     beautier,
+    formatR,
     shiny
 License: GPL-3 | file LICENSE
 Encoding: UTF-8

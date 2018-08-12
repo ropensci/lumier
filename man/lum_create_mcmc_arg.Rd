@@ -4,7 +4,7 @@
 \alias{lum_create_mcmc_arg}
 \title{Create the \code{mcmc} argument}
 \usage{
-lum_create_mcmc_arg(chain_length, store_every)
+lum_create_mcmc_arg(chain_length = "10000000", store_every = -1)
 }
 \description{
 Create the \code{mcmc} argument
