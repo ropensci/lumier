@@ -19,7 +19,36 @@ lum_create_ui <- function() {
             shiny::numericInput("subst_rate", "Substitution rate", value = 1.0, min = 0.0, max = 1.0),
             shiny::numericInput("gamma_cat_count", "Gamma category count", value = 0, min = 0, step = 1),
             shiny::numericInput("prop_invariant", "Proportion invariant", value = 0.0, min = 0.0, max = 1.0),
-            shiny::selectInput("subst_model", "Site model", choices = c("JC69", "HKY", "TN93", "GTR"))
+            shiny::navbarPage(title = "Subst Model", id = "subst_model",
+              shiny::tabPanel(title = "JC69"),
+              shiny::tabPanel(title = "HKY",
+                shiny::numericInput("kappa", "Kappa", value = 2.0, min = 0),
+                shiny::checkboxInput("estimate_kappa", "Estimate", value = TRUE),
+                shiny::selectInput("hky_frequencies", "Frequencies", c("Estimated", "Empirical", "All Equal"))
+              ),
+              shiny::tabPanel(title = "TN93",
+                shiny::numericInput("kappa_1", "Kappa1", value = 2.0, min = 0),
+                shiny::checkboxInput("estimate_kappa_1", "Estimate", value = TRUE),
+                shiny::numericInput("kappa_2", "Kappa2", value = 2.0, min = 0),
+                shiny::checkboxInput("estimate_kappa_2", "Estimate", value = TRUE),
+                shiny::selectInput("tn93_frequencies", "Frequencies", c("Estimated", "Empirical", "All Equal"))
+              ),
+              shiny::tabPanel(title = "GTR",
+                shiny::numericInput("rate_ac", "Rate AC", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_ac", "Estimate", value = TRUE),
+                shiny::numericInput("rate_ag", "Rate AG", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_ag", "Estimate", value = TRUE),
+                shiny::numericInput("rate_at", "Rate AT", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_at", "Estimate", value = TRUE),
+                shiny::numericInput("rate_cg", "Rate CG", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_cg", "Estimate", value = TRUE),
+                shiny::numericInput("rate_ct", "Rate CT", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_ct", "Estimate", value = FALSE),
+                shiny::numericInput("rate_gt", "Rate GT", value = 1.0, min = 0.0),
+                shiny::checkboxInput("estimate_rate_gt", "Estimate", value = TRUE),
+                shiny::selectInput("gtr_frequencies", "Frequencies", c("Estimated", "Empirical", "All Equal"))
+              )
+            )
           ),
           shiny::tabPanel("Clock Model",
             shiny::selectInput("clock_model", "Clock model", choices = c("Strict Clock", "Relaxed Clock Log Normal"))

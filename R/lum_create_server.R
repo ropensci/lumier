@@ -17,7 +17,7 @@ lum_create_server <- function(input, output) {
   })
 
   output$log <- shiny::renderText({
-    input$main_panel
+    input$subst_model_again
   })
 
 }

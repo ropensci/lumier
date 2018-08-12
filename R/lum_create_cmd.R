@@ -38,7 +38,7 @@ lum_create_cmd <- function(
     )
   }
   cmd <- "create_beast2_input"
-  if (as_file == TRUE) cmd <- paste0(cmd, "_as_file")
+  if (as_file == TRUE) cmd <- paste0(cmd, "_file")
   cmd <- paste0(
     cmd, "(", args, ")",
     collapse = ""
