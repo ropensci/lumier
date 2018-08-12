@@ -16,3 +16,4 @@ LazyData: true
 RoxygenNote: 6.1.0
 URL: https://github.com/richelbilderbeek/lumier
 BugReports: https://github.com/richelbilderbeek/lumier/issues
+Suggests: testthat
