@@ -1,13 +1,9 @@
 lum_create_gamma_site_model_arg <- function(
-  gamma_site_model = list(
-    subst_rate = 1.0,
-    gamma_cat_count = 0,
-    prop_invariant = 0.0
-  )
+  gamma_site_model = beautier::create_gamma_site_model()
 ) {
-  if (gamma_site_model$subst_rate == 1.0 &&
-      gamma_site_model$gamma_cat_count == 0 &&
-      gamma_site_model$prop_invariant == 0.0
+  testit::assert(beautier:::is_gamma_site_model(gamma_site_model))
+  if (gamma_site_model$gamma_cat_count == "0" &&
+      gamma_site_model$prop_invariant == "0.0"
   ) {
     return("")
   }

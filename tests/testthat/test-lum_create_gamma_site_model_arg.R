@@ -6,7 +6,9 @@ test_that("use", {
     ""
   )
   expect_equal(
-    lum_create_gamma_site_model_arg(gamma_site_model = list(gamma_cat_count = 1)),
+    lum_create_gamma_site_model_arg(
+      beautier::create_gamma_site_model(gamma_cat_count = 1)
+    ),
     paste0(
       "gamma_site_model = create_gamma_site_model(",
         "gamma_cat_count = 1",

@@ -3,11 +3,7 @@
 #' @author Richel J.C. Bilderbeek
 lum_create_site_model_arg <- function(
   subst_model = "JC69",
-  gamma_site_model = list(
-    subst_rate = 1.0,
-    gamma_cat_count = 0,
-    prop_invariant = 0.0
-  )
+  gamma_site_model = beautier::create_gamma_site_model()
 ) {
   site_model_arg = lum_create_gamma_site_model_arg(gamma_site_model)
   arg <- "site_models = "
