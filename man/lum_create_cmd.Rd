@@ -4,8 +4,9 @@
 \alias{lum_create_cmd}
 \title{Create the \code{beautier} command from the user interface}
 \usage{
-lum_create_cmd(filename, subst_model, clock_model, tree_prior,
-  chain_length, store_every)
+lum_create_cmd(filename, subst_model = "JC69",
+  clock_model = "Strict Clock", tree_prior = "Yule Model",
+  chain_length = 1e+07, store_every = -1)
 }
 \arguments{
 \item{ui}{the user interface, as created by \link{lum_create_ui}}

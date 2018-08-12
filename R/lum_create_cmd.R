@@ -3,11 +3,11 @@
 #' @author Richel J.C. Bilderbeek
 lum_create_cmd <- function(
   filename,
-  subst_model,
-  clock_model,
-  tree_prior,
-  chain_length,
-  store_every
+  subst_model = "JC69",
+  clock_model = "Strict Clock",
+  tree_prior = "Yule Model",
+  chain_length = 10000000,
+  store_every = -1
 ) {
   paste(
     "create_beast2_input(",
