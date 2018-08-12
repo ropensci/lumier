@@ -2,10 +2,10 @@
 % Please edit documentation in R/lum_run.R
 \name{lum_run}
 \alias{lum_run}
-\title{Run \code{lumier}}
+\title{Run \code{lumier} Shiny application}
 \usage{
 lum_run()
 }
 \description{
-Run \code{lumier}
+Run \code{lumier} Shiny application
 }
