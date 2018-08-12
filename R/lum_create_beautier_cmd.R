@@ -1,5 +1,5 @@
 #' Create the \code{beautier} command from the user interface
-#' @param ui the user interface, as created by \link{lum_create_ui}
+#' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
 lum_create_beautier_cmd <- function(ui) {
   paste(

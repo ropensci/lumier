@@ -10,6 +10,7 @@ Description: lumier is an R package that shows
 Imports:
     beautier,
     formatR,
+    testit,
     shiny
 License: GPL-3 | file LICENSE
 Encoding: UTF-8

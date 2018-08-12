@@ -1,7 +1,5 @@
 #' Define server logic
-#' @param input the current user interface,
-#'   as created by \link{lum_create_ui}
-#' @param output the new, changed user interface
+#' @inheritParams default_params_doc
 #' @seealso
 #'   The \code{beautier} command is created by \link{lum_create_beautier_cmd}.
 #'   The BEAST2 XML code is created by \link{lum_create_xml}.

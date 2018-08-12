@@ -1,6 +1,5 @@
 #' Create the \code{mcmc} argument
-#' @param chain_length MCMC chain length
-#' @param store_every MCMC store interval
+#' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
 lum_create_mcmc_arg <- function(
   chain_length = "10000000",

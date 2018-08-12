@@ -12,9 +12,16 @@ lum_create_cmd(input_filename = "test.fas",
   as_file = FALSE)
 }
 \arguments{
+\item{input_filename}{the name of the FASTA filename}
+
+\item{output_filename}{the name of the to-be-created BEAST2 file}
+
+\item{gamma_site_model}{a gamma_site_model,
+as created by \link[beautier]{create_gamma_site_model}}
+
 \item{subst_model}{name of the substitution model}
 
-\item{clock_model}{name of the clock model}
+\item{clock_model}{the clock model, as text}
 
 \item{tree_prior}{name of the tree prior}
 
@@ -24,8 +31,6 @@ lum_create_cmd(input_filename = "test.fas",
 
 \item{as_file}{if TRUE, show \code{create_beast_input_file},
 else show \code{create_beast_input}}
-
-\item{filename}{the name of the FASTA filename}
 }
 \description{
 Create the \code{beautier} command from the user interface

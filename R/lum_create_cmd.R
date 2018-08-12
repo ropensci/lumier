@@ -1,12 +1,5 @@
 #' Create the \code{beautier} command from the user interface
-#' @param filename the name of the FASTA filename
-#' @param subst_model name of the substitution model
-#' @param clock_model name of the clock model
-#' @param tree_prior name of the tree prior
-#' @param chain_length MCMC chain length
-#' @param store_every MCMC store interval
-#' @param as_file if TRUE, show \code{create_beast_input_file},
-#'   else show \code{create_beast_input}
+#' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
 lum_create_cmd <- function(
   input_filename = "test.fas",

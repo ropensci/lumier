@@ -9,6 +9,9 @@ lum_create_site_model_arg(subst_model = "JC69",
 }
 \arguments{
 \item{subst_model}{name of the substitution model}
+
+\item{gamma_site_model}{a gamma_site_model,
+as created by \link[beautier]{create_gamma_site_model}}
 }
 \description{
 Create the \code{site_model} argument
