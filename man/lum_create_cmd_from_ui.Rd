@@ -4,10 +4,13 @@
 \alias{lum_create_cmd_from_ui}
 \title{Create the \code{beautier} command from the user interface}
 \usage{
-lum_create_cmd_from_ui(ui)
+lum_create_cmd_from_ui(ui, as_file)
 }
 \arguments{
 \item{ui}{the user interface, as created by \link{lum_create_ui}}
+
+\item{as_file}{if TRUE, show \code{create_beast_input_file},
+else show \code{create_beast_input}}
 }
 \description{
 Create the \code{beautier} command from the user interface

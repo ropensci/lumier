@@ -4,13 +4,12 @@
 \alias{lum_create_cmd}
 \title{Create the \code{beautier} command from the user interface}
 \usage{
-lum_create_cmd(filename = "test.fas", subst_model = "JC69",
+lum_create_cmd(input_filename = "test.fas",
+  output_filename = "beast2.xml", subst_model = "JC69",
   clock_model = "Strict Clock", tree_prior = "Yule Model",
-  chain_length = 1e+07, store_every = -1)
+  chain_length = 1e+07, store_every = -1, as_file = FALSE)
 }
 \arguments{
-\item{filename}{the name of the FASTA filename}
-
 \item{subst_model}{name of the substitution model}
 
 \item{clock_model}{name of the clock model}
@@ -20,6 +19,11 @@ lum_create_cmd(filename = "test.fas", subst_model = "JC69",
 \item{chain_length}{MCMC chain length}
 
 \item{store_every}{MCMC store interval}
+
+\item{as_file}{if TRUE, show \code{create_beast_input_file},
+else show \code{create_beast_input}}
+
+\item{filename}{the name of the FASTA filename}
 }
 \description{
 Create the \code{beautier} command from the user interface

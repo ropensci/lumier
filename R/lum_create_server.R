@@ -9,11 +9,11 @@
 lum_create_server <- function(input, output) {
 
   output$result <- shiny::renderText({
-    lum_create_beautier_cmd_from_ui(input)
+    lum_create_beautier_cmd_from_ui(input, as_file = TRUE)
   })
 
   output$xml <- shiny::renderText({
-    lum_create_xml(lum_create_beautier_cmd_from_ui(input))
+    lum_create_xml(lum_create_beautier_cmd_from_ui(input, as_file = FALSE))
   })
 
 }

@@ -8,7 +8,8 @@ lum_create_ui <- function() {
           title = "beautier",
           shiny::tabPanel(
             title = "Partitions",
-            shiny::textInput("filename", "Filename", value = beautier::get_beautier_path("anthus_aco_sub.fas"), width = "100%")
+            shiny::textInput("input_filename", "Filename (.fas)", value = beautier::get_beautier_path("anthus_aco_sub.fas"), width = "100%"),
+            shiny::textInput("output_filename", "Output filename (.XML)", value = "beast2.xml", width = "100%")
           ),
           shiny::tabPanel("Tip Dates",
             "No input editors"
