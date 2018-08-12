@@ -4,7 +4,9 @@
 \alias{lum_create_site_model_arg}
 \title{Create the \code{site_model} argument}
 \usage{
-lum_create_site_model_arg(subst_model)
+lum_create_site_model_arg(subst_model = "JC69",
+  gamma_site_model = list(subst_rate = 1, gamma_cat_count = 0,
+  prop_invariant = 0))
 }
 \arguments{
 \item{subst_model}{name of the substitution model}

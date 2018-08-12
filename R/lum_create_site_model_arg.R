@@ -1,19 +1,27 @@
 #' Create the \code{site_model} argument
 #' @param subst_model name of the substitution model
 #' @author Richel J.C. Bilderbeek
-lum_create_site_model_arg <- function(subst_model) {
-  arg <- "site_models ="
+lum_create_site_model_arg <- function(
+  subst_model = "JC69",
+  gamma_site_model = list(
+    subst_rate = 1.0,
+    gamma_cat_count = 0,
+    prop_invariant = 0.0
+  )
+) {
+  site_model_arg = lum_create_gamma_site_model_arg(gamma_site_model)
+  arg <- "site_models = "
   if (subst_model == "JC69") {
-    return(paste(arg, "create_jc69_site_model()"))
+    return(paste0(arg, "create_jc69_site_model(", site_model_arg, ")"))
   }
   if (subst_model == "HKY") {
-    return(paste(arg, "create_hky_site_model()"))
+    return(paste0(arg, "create_hky_site_model(", site_model_arg, ")"))
   }
   if (subst_model == "TN93") {
-    return(paste(arg, "create_tn93_site_model()"))
+    return(paste0(arg, "create_tn93_site_model(", site_model_arg, ")"))
   }
   if (subst_model == "GTR") {
-    return(paste(arg, "create_gtr_site_model()"))
+    return(paste0(arg, "create_gtr_site_model(", site_model_arg, ")"))
   }
   stop("Unknown substitution model")
 }

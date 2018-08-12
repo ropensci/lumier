@@ -11,6 +11,11 @@
 lum_create_cmd <- function(
   input_filename = "test.fas",
   output_filename = "beast2.xml",
+  gamma_site_model = list(
+    subst_rate = 1.0,
+    gamma_cat_count = 0,
+    prop_invariant = 0.0
+  ),
   subst_model = "JC69",
   clock_model = "Strict Clock",
   tree_prior = "Yule Model",
@@ -20,7 +25,7 @@ lum_create_cmd <- function(
 ) {
   args <- paste(
     lum_create_input_filename_arg(input_filename),
-    lum_create_site_model_arg(subst_model),
+    lum_create_site_model_arg(subst_model, gamma_site_model),
     lum_create_clock_model_arg(clock_model),
     lum_create_tree_prior_arg(tree_prior),
     lum_create_mcmc_arg(chain_length, store_every),

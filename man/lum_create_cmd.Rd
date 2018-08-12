@@ -5,7 +5,8 @@
 \title{Create the \code{beautier} command from the user interface}
 \usage{
 lum_create_cmd(input_filename = "test.fas",
-  output_filename = "beast2.xml", subst_model = "JC69",
+  output_filename = "beast2.xml", gamma_site_model = list(subst_rate =
+  1, gamma_cat_count = 0, prop_invariant = 0), subst_model = "JC69",
   clock_model = "Strict Clock", tree_prior = "Yule Model",
   chain_length = 1e+07, store_every = -1, as_file = FALSE)
 }
