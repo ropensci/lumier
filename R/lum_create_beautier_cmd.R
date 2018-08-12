@@ -2,6 +2,8 @@
 #' @param ui the user interface, as created by \link{lum_create_ui}
 lum_create_beautier_cmd <- function(ui) {
   paste(
+    "library(beautier)",
+    " ",
     "create_beast2_input(",
     paste0("  input_filenames = \"", ui$filename, "\","),
     paste0("  site_models = ", create_site_model_text(ui$subst_model), ","),
