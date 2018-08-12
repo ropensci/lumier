@@ -7,6 +7,8 @@ develop|[![Build Status](https://travis-ci.org/richelbilderbeek/lumier.svg?branc
 
 `lumier` is an R package that shows the usage of lumier and beautier by a Shiny app.
 
+![lumier v0.1](lumier_0_1.png)
+
 ## Installation
 
 ```
