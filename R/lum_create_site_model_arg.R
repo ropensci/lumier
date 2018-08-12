@@ -1,3 +1,5 @@
+#' Create the \code{site_model} argument
+#' @author Richel J.C. Bilderbeek
 lum_create_site_model_arg <- function(subst_model) {
   if (subst_model == "JC69") {
     return("create_jc69_site_model()")

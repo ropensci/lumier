@@ -2,10 +2,17 @@
 % Please edit documentation in R/lum_run.R
 \name{lum_run}
 \alias{lum_run}
-\title{Run \code{lumier} Shiny application}
+\title{Run \code{lumier} Shiny application.}
 \usage{
 lum_run()
 }
 \description{
-Run \code{lumier} Shiny application
+Run \code{lumier} Shiny application.
+}
+\seealso{
+The user interface is created by \link{lum_create_ui}.
+  The Shiny server is created by \link{lum_create_server}.
+}
+\author{
+Richel J.C. Bilderbeek
 }

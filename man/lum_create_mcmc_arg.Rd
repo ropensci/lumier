@@ -2,10 +2,13 @@
 % Please edit documentation in R/lum_create_mcmc_arg.R
 \name{lum_create_mcmc_arg}
 \alias{lum_create_mcmc_arg}
-\title{Create the \code{beautier}'s \code{mcmc} argument}
+\title{Create the \code{mcmc} argument}
 \usage{
-lum_create_mcmc_arg(ui)
+lum_create_mcmc_arg(chain_length, store_every)
 }
 \description{
-Create the \code{beautier}'s \code{mcmc} argument
+Create the \code{mcmc} argument
+}
+\author{
+Richel J.C. Bilderbeek
 }

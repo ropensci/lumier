@@ -1,4 +1,5 @@
 #' Define user interface
+#' @author Richel J.C. Bilderbeek
 lum_create_ui <- function() {
   shiny::fluidPage(
     shiny::shinyUI(

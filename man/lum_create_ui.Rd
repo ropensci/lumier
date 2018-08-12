@@ -9,3 +9,6 @@ lum_create_ui()
 \description{
 Define user interface
 }
+\author{
+Richel J.C. Bilderbeek
+}
