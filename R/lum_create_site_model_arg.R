@@ -5,7 +5,7 @@ lum_create_site_model_arg <- function(
   subst_model = "JC69",
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
-  site_model_arg = lum_create_gamma_site_model_arg(gamma_site_model)
+  site_model_arg <- lum_create_gamma_site_model_arg(gamma_site_model)
   arg <- "site_models = "
   if (subst_model == "JC69") {
     return(paste0(arg, "create_jc69_site_model(", site_model_arg, ")"))

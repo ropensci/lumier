@@ -22,5 +22,3 @@ test_that("use", {
     "Unknown substitution model"
   )
 })
-
-
