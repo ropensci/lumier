@@ -5,6 +5,7 @@ lum_create_site_model_arg <- function(
   subst_model = "JC69",
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
+  lum_create_gamma_site_model_arg <- NULL; rm(lum_create_gamma_site_model_arg) # nolint, fixes warning: no visible binding for global variable
   site_model_arg <- lum_create_gamma_site_model_arg(gamma_site_model)
   arg <- "site_models = "
   if (subst_model == "JC69") {
