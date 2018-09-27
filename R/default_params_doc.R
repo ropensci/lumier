@@ -5,6 +5,7 @@
 #' @param beautier_cmd the \code{beautier} command
 #' @param chain_length MCMC chain length
 #' @param clock_model the clock model, as text
+#' @param filename name of the file
 #' @param gamma_site_model a gamma_site_model,
 #'   as created by \link[beautier]{create_gamma_site_model}
 #' @param input the current user interface,
@@ -25,6 +26,7 @@ default_params_doc <- function(
   beautier_cmd,
   chain_length,
   clock_model,
+  filename,
   gamma_site_model,
   input,
   input_filename,

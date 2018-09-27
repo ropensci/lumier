@@ -6,6 +6,9 @@
 \usage{
 lum_create_input_filename_arg(filename)
 }
+\arguments{
+\item{filename}{name of the file}
+}
 \description{
 Create the \code{input_filename} argument
 }

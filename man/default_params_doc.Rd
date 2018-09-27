@@ -6,8 +6,8 @@
 documentation.}
 \usage{
 default_params_doc(as_file, beautier_cmd, chain_length, clock_model,
-  gamma_site_model, input, input_filename, output, output_filename,
-  store_every, subst_model, tree_prior, ui)
+  filename, gamma_site_model, input, input_filename, output,
+  output_filename, store_every, subst_model, tree_prior, ui)
 }
 \arguments{
 \item{as_file}{if TRUE, show \code{create_beast_input_file},
@@ -18,6 +18,8 @@ else show \code{create_beast_input}}
 \item{chain_length}{MCMC chain length}
 
 \item{clock_model}{the clock model, as text}
+
+\item{filename}{name of the file}
 
 \item{gamma_site_model}{a gamma_site_model,
 as created by \link[beautier]{create_gamma_site_model}}
