@@ -1,7 +1,7 @@
 #' Create the \code{gamma_site_model} argument
 #' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
-lum_create_gamma_site_model_arg <- function( # nolint internal function is long for consistency
+lum_create_gamma_site_model_arg <- function( # nolint internal function name is long for consistency
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
   testit::assert(beautier:::is_gamma_site_model(gamma_site_model))
