@@ -1,0 +1,106 @@
+{
+  "@context": [
+    "https://doi.org/10.5063/schema/codemeta-2.0",
+    "http://schema.org"
+  ],
+  "@type": "SoftwareSourceCode",
+  "identifier": "lumier",
+  "description": "lumier is an R package that shows \n  how to use beautier by a Shiny app.",
+  "name": "lumier: Show How To Use Beautier",
+  "codeRepository": "https://github.com/ropensci/lumier",
+  "issueTracker": "https://github.com/ropensci/lumier/issues",
+  "license": "https://spdx.org/licenses/GPL-3.0",
+  "version": "1.0",
+  "programmingLanguage": {
+    "@type": "ComputerLanguage",
+    "name": "R",
+    "version": "3.4.2",
+    "url": "https://r-project.org"
+  },
+  "runtimePlatform": "R version 3.4.2 (2017-09-28)",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Richel",
+      "familyName": "Bilderbeek",
+      "email": "richel@richelbilderbeek.nl",
+      "@id": "https://orcid.org/0000-0003-1107-7049"
+    }
+  ],
+  "maintainer": [
+    {
+      "@type": "Person",
+      "givenName": "Richel",
+      "familyName": "Bilderbeek",
+      "email": "richel@richelbilderbeek.nl",
+      "@id": "https://orcid.org/0000-0003-1107-7049"
+    }
+  ],
+  "softwareSuggestions": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testthat",
+      "name": "testthat",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testthat"
+    }
+  ],
+  "softwareRequirements": [
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "beautier",
+      "name": "beautier"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "formatR",
+      "name": "formatR",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=formatR"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "testit",
+      "name": "testit",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=testit"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "identifier": "shiny",
+      "name": "shiny",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=shiny"
+    }
+  ],
+  "readme": "https://github.com/ropensci/lumier/blob/master/README.md",
+  "fileSize": "18.723KB",
+  "contIntegration": [
+    "https://travis-ci.org",
+    "https://www.codecov.io",
+    "https://travis-ci.org/ropensci/lumier",
+    "https://codecov.io/github/ropensci/lumier/branch/master",
+    "https://travis-ci.org/ropensci/lumier",
+    "https://codecov.io/github/ropensci/lumier/branch/develop"
+  ]
+}
