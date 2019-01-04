@@ -1,5 +1,7 @@
 # lumier
 
+[![Peer Review Status](https://badges.ropensci.org/209_status.svg)](https://github.com/ropensci/onboarding/issues/209)
+
 Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)|[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
 ---|---|---
 master|[![Build Status](https://travis-ci.org/richelbilderbeek/lumier.svg?branch=master)](https://travis-ci.org/richelbilderbeek/lumier)|[![codecov.io](https://codecov.io/github/richelbilderbeek/lumier/coverage.svg?branch=master)](https://codecov.io/github/richelbilderbeek/lumier/branch/master)
@@ -21,3 +23,5 @@ devtools::install_github("richelbilderbeek/lumier")
 library(lumier)
 lum_run()
 ```
+
+[![ropensci_footer](https://ropensci.org/public_images/ropensci_footer.png)](https://ropensci.org)
