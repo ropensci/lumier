@@ -94,7 +94,7 @@
     }
   ],
   "readme": "https://github.com/ropensci/lumier/blob/master/README.md",
-  "fileSize": "18.723KB",
+  "fileSize": "18.886KB",
   "contIntegration": [
     "https://travis-ci.org",
     "https://www.codecov.io",

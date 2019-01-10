@@ -12,6 +12,12 @@ lum_create_cmd <- function(
   store_every = -1,
   as_file = FALSE
 ) {
+  if (!beautier:::is_gamma_site_model(gamma_site_model)) {
+    stop(
+      "'gamma_site_model' must be a gamma site model.\n",
+      "Actual value(s): ", gamma_site_model
+    )
+  }
   args <- paste(
     lum_create_input_filename_arg(input_filename),
     lum_create_site_model_arg(subst_model, gamma_site_model),

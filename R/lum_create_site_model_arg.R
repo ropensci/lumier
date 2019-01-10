@@ -6,8 +6,14 @@ lum_create_site_model_arg <- function(
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
   lum_create_gamma_site_model_arg <- NULL; rm(lum_create_gamma_site_model_arg) # nolint, fixes warning: no visible binding for global variable
+  if (!beautier:::is_gamma_site_model(gamma_site_model)) {
+    stop(
+      "'gamma_site_model' must be a gamma site model.\n",
+      "Actual value(s): ", gamma_site_model
+    )
+  }
   site_model_arg <- lum_create_gamma_site_model_arg(gamma_site_model)
-  arg <- "site_models = "
+  arg <- "site_model = "
   if (subst_model == "JC69") {
     return(paste0(arg, "create_jc69_site_model(", site_model_arg, ")"))
   }

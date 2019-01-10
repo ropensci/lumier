@@ -2,7 +2,7 @@
 #' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
 lum_create_clock_model_arg <- function(clock_model) {
-  arg <- "clock_models ="
+  arg <- "clock_model ="
   if (clock_model == "Strict Clock") {
     return(paste(arg, "create_strict_clock_model()"))
   }

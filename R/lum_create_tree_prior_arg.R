@@ -2,7 +2,7 @@
 #' @inheritParams default_params_doc
 #' @author Richel J.C. Bilderbeek
 lum_create_tree_prior_arg <- function(tree_prior) {
-  arg <- "tree_priors ="
+  arg <- "tree_prior ="
   if (tree_prior == "Yule Model") {
     return(paste(arg, "create_yule_tree_prior()"))
   }
