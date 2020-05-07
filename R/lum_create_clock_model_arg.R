@@ -1,6 +1,6 @@
 #' Create the \code{clock_model} argument
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_clock_model_arg <- function(clock_model) {
   arg <- "clock_model ="
   if (clock_model == "Strict Clock") {

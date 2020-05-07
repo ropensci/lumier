@@ -1,6 +1,6 @@
 #' Create the \code{mcmc} argument
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_mcmc_arg <- function(
   chain_length = "10000000",
   store_every = -1

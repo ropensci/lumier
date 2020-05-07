@@ -1,6 +1,6 @@
 #' Create the \code{beautier} command from the user interface
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_full_cmd_from_ui <- function(
   ui,
   as_file
