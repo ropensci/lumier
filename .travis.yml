@@ -20,3 +20,10 @@ after_success:
   - Rscript -e 'covr::codecov()'
   - travis_wait 20 Rscript -e 'goodpractice::gp()'
   - proselint *.md | egrep -v "typography\.symbols\.curly_quotes"
+  # Download thesis
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+
+after_failure:
+  # Download thesis
+  - Rscript -e 'download.file("https://www.rug.nl/research/portal/files/132028374/Complete_thesis.pdf", tempfile())'
+
