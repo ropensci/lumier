@@ -1,6 +1,6 @@
 #' Create the \code{gamma_site_model} argument
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_gamma_site_model_arg <- function( # nolint internal function name is long for consistency
   gamma_site_model = beautier::create_gamma_site_model()
 ) {

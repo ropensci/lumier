@@ -17,7 +17,7 @@
 #' @param subst_model name of the substitution model
 #' @param tree_prior name of the tree prior
 #' @param ui the user interface, as created by \link{lum_create_ui}
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 #' @note This is an internal function, so it should be marked with
 #'   \code{@noRd}. This is not done, as this will disallow all
 #'   functions to find the documentation parameters

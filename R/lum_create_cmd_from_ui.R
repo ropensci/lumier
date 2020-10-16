@@ -1,6 +1,6 @@
 #' Create the \code{beautier} command from the user interface
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_cmd_from_ui <- function(ui, as_file) {
   gamma_site_model <- beautier:::create_gamma_site_model(
     gamma_cat_count = 1, # ui$gamma_cat_count,

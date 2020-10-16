@@ -1,6 +1,6 @@
 #' Create the \code{beautier} command from the user interface
 #' @inheritParams default_params_doc
-#' @author Richel J.C. Bilderbeek
+#' @author Richèl J.C. Bilderbeek
 lum_create_cmd <- function(
   input_filename = "test.fas",
   output_filename = "beast2.xml",
