@@ -1,6 +1,7 @@
 #' Create the \code{beautier} command from the user interface
 #' @inheritParams default_params_doc
 #' @author Richèl J.C. Bilderbeek
+#' @export
 lum_create_cmd <- function(
   input_filename = "test.fas",
   output_filename = "beast2.xml",
@@ -12,7 +13,7 @@ lum_create_cmd <- function(
   store_every = -1,
   as_file = FALSE
 ) {
-  if (!beautier:::is_gamma_site_model(gamma_site_model)) {
+  if (!beautier::is_gamma_site_model(gamma_site_model)) {
     stop(
       "'gamma_site_model' must be a gamma site model.\n",
       "Actual value(s): ", gamma_site_model

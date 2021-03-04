@@ -1,12 +1,13 @@
 #' Create the \code{site_model} argument
 #' @inheritParams default_params_doc
 #' @author Richèl J.C. Bilderbeek
+#' @export
 lum_create_site_model_arg <- function(
   subst_model = "JC69",
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
   lum_create_gamma_site_model_arg <- NULL; rm(lum_create_gamma_site_model_arg) # nolint, fixes warning: no visible binding for global variable
-  if (!beautier:::is_gamma_site_model(gamma_site_model)) {
+  if (!beautier::is_gamma_site_model(gamma_site_model)) {
     stop(
       "'gamma_site_model' must be a gamma site model.\n",
       "Actual value(s): ", gamma_site_model

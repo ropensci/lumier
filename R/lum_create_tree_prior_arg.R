@@ -1,6 +1,7 @@
 #' Create the \code{tree_prior} argument
 #' @inheritParams default_params_doc
 #' @author Richèl J.C. Bilderbeek
+#' @export
 lum_create_tree_prior_arg <- function(tree_prior) {
   arg <- "tree_prior ="
   if (tree_prior == "Yule Model") {
