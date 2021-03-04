@@ -16,5 +16,5 @@ else show \code{create_beast_input}}
 Create the \code{beautier} command from the user interface
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

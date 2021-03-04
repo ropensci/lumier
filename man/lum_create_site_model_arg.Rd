@@ -4,8 +4,10 @@
 \alias{lum_create_site_model_arg}
 \title{Create the \code{site_model} argument}
 \usage{
-lum_create_site_model_arg(subst_model = "JC69",
-  gamma_site_model = beautier::create_gamma_site_model())
+lum_create_site_model_arg(
+  subst_model = "JC69",
+  gamma_site_model = beautier::create_gamma_site_model()
+)
 }
 \arguments{
 \item{subst_model}{name of the substitution model}
@@ -17,5 +19,5 @@ as created by \link[beautier]{create_gamma_site_model}}
 Create the \code{site_model} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

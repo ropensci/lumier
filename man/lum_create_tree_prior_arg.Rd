@@ -13,5 +13,5 @@ lum_create_tree_prior_arg(tree_prior)
 Create the \code{tree_prior} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

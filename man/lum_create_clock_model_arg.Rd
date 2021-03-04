@@ -13,5 +13,5 @@ lum_create_clock_model_arg(clock_model)
 Create the \code{clock_model} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

@@ -5,9 +5,22 @@
 \title{This function does nothing. It is intended to inherit is parameters'
 documentation.}
 \usage{
-default_params_doc(as_file, beautier_cmd, chain_length, clock_model,
-  filename, gamma_site_model, input, input_filename, output,
-  output_filename, store_every, subst_model, tree_prior, ui)
+default_params_doc(
+  as_file,
+  beautier_cmd,
+  chain_length,
+  clock_model,
+  filename,
+  gamma_site_model,
+  input,
+  input_filename,
+  output,
+  output_filename,
+  store_every,
+  subst_model,
+  tree_prior,
+  ui
+)
 }
 \arguments{
 \item{as_file}{if TRUE, show \code{create_beast_input_file},
@@ -51,5 +64,5 @@ This is an internal function, so it should be marked with
   functions to find the documentation parameters
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

@@ -10,7 +10,7 @@ lum_create_cmd_from_ui <- function(ui, as_file) {
     freq_equilibrium = "estimated" #ui$freq_equilibrium
   )
   testit::assert(beautier:::is_gamma_site_model(gamma_site_model))
-  lum_create_cmd(
+  lumier::lum_create_cmd(
     ui$input_filename,
     ui$output_filename,
     gamma_site_model,

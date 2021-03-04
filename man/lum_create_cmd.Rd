@@ -4,12 +4,17 @@
 \alias{lum_create_cmd}
 \title{Create the \code{beautier} command from the user interface}
 \usage{
-lum_create_cmd(input_filename = "test.fas",
+lum_create_cmd(
+  input_filename = "test.fas",
   output_filename = "beast2.xml",
   gamma_site_model = beautier::create_gamma_site_model(),
-  subst_model = "JC69", clock_model = "Strict Clock",
-  tree_prior = "Yule Model", chain_length = 1e+07, store_every = -1,
-  as_file = FALSE)
+  subst_model = "JC69",
+  clock_model = "Strict Clock",
+  tree_prior = "Yule Model",
+  chain_length = 1e+07,
+  store_every = -1,
+  as_file = FALSE
+)
 }
 \arguments{
 \item{input_filename}{the name of the FASTA filename}
@@ -36,5 +41,5 @@ else show \code{create_beast_input}}
 Create the \code{beautier} command from the user interface
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

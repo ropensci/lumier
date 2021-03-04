@@ -19,21 +19,21 @@ lum_create_cmd <- function(
     )
   }
   args <- paste(
-    lum_create_input_filename_arg(input_filename),
-    lum_create_site_model_arg(subst_model, gamma_site_model),
-    lum_create_clock_model_arg(clock_model),
-    lum_create_tree_prior_arg(tree_prior),
-    lum_create_mcmc_arg(chain_length, store_every),
+    lumier::lum_create_input_filename_arg(input_filename),
+    lumier::lum_create_site_model_arg(subst_model, gamma_site_model),
+    lumier::lum_create_clock_model_arg(clock_model),
+    lumier::lum_create_tree_prior_arg(tree_prior),
+    lumier::lum_create_mcmc_arg(chain_length, store_every),
     sep = ", "
   )
   if (as_file == TRUE) {
     args <- paste(
-      lum_create_input_filename_arg(input_filename),
-      lum_create_output_filename_arg(output_filename), # Different
-      lum_create_site_model_arg(subst_model),
-      lum_create_clock_model_arg(clock_model),
-      lum_create_tree_prior_arg(tree_prior),
-      lum_create_mcmc_arg(chain_length, store_every),
+      lumier::lum_create_input_filename_arg(input_filename),
+      lumier::lum_create_output_filename_arg(output_filename), # Different
+      lumier::lum_create_site_model_arg(subst_model),
+      lumier::lum_create_clock_model_arg(clock_model),
+      lumier::lum_create_tree_prior_arg(tree_prior),
+      lumier::lum_create_mcmc_arg(chain_length, store_every),
       sep = ", "
     )
   }
