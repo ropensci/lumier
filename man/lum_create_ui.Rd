@@ -10,5 +10,5 @@ lum_create_ui()
 Define user interface
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

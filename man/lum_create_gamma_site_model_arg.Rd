@@ -4,8 +4,9 @@
 \alias{lum_create_gamma_site_model_arg}
 \title{Create the \code{gamma_site_model} argument}
 \usage{
-
-  lum_create_gamma_site_model_arg(gamma_site_model = beautier::create_gamma_site_model())
+lum_create_gamma_site_model_arg(
+  gamma_site_model = beautier::create_gamma_site_model()
+)
 }
 \arguments{
 \item{gamma_site_model}{a gamma_site_model,
@@ -15,5 +16,5 @@ as created by \link[beautier]{create_gamma_site_model}}
 Create the \code{gamma_site_model} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

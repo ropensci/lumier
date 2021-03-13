@@ -13,5 +13,5 @@ lum_create_xml(beautier_cmd)
 Show the XML file created by the displayed beautier command
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

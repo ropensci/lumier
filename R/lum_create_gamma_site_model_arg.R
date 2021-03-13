@@ -4,7 +4,7 @@
 lum_create_gamma_site_model_arg <- function( # nolint internal function name is long for consistency
   gamma_site_model = beautier::create_gamma_site_model()
 ) {
-  if (!beautier:::is_gamma_site_model(gamma_site_model)) {
+  if (!beautier::is_gamma_site_model(gamma_site_model)) {
     stop(
       "'gamma_site_model' must be a gamma site model.\n",
       "Actual value(s): ", gamma_site_model

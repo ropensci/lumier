@@ -5,12 +5,11 @@ lum_create_full_cmd_from_ui <- function(
   ui,
   as_file
 ) {
-
   paste(
     "library(beautier)",
     " ",
     formatR::tidy_source(
-      text = lum_create_cmd_from_ui(ui, as_file = as_file),
+      text = lumier::lum_create_cmd_from_ui(ui, as_file = as_file),
       width.cutoff = 40
     )$text.tidy,
     sep = "\n"

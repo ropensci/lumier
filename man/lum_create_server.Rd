@@ -20,5 +20,5 @@ The \code{beautier} command is created by \link{lum_create_beautier_cmd}.
   The BEAST2 XML code is created by \link{lum_create_xml}.
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

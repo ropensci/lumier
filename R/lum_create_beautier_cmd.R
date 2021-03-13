@@ -5,7 +5,7 @@ lum_create_beautier_cmd <- function(ui) {
   paste(
     "library(beautier)",
     " ",
-    lum_create_cmd(ui),
+    lumier::lum_create_cmd(ui),
     sep = "\n", collapse = "\n"
   )
 }

@@ -15,5 +15,5 @@ lum_create_mcmc_arg(chain_length = "10000000", store_every = -1)
 Create the \code{mcmc} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

@@ -13,5 +13,5 @@ lum_create_output_filename_arg(output_filename)
 Create the \code{output_filename} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

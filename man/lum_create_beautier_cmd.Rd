@@ -13,5 +13,5 @@ lum_create_beautier_cmd(ui)
 Create the \code{beautier} command from the user interface
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }

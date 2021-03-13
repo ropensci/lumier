@@ -13,5 +13,5 @@ lum_create_input_filename_arg(filename)
 Create the \code{input_filename} argument
 }
 \author{
-Richel J.C. Bilderbeek
+Richèl J.C. Bilderbeek
 }
