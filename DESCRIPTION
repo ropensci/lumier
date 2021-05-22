@@ -8,7 +8,7 @@ Maintainer: Richel J.C. Bilderbeek <richel@richelbilderbeek.nl>
 Description: lumier is an R package that shows 
   how to use beautier by a Shiny app.
 Imports:
-    beautier,
+    beautier (>= 2.5.2),
     formatR,
     testit,
     shiny
